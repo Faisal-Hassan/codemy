@@ -13,14 +13,3 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
-
-
-$(".button-collapse").sideNav();
-
-$(document).ready(function() {
-	setTimeout(function(){
-	$('#notice-wrapper').fadeOut("slow", function() {
-		$(this).remove();
-		})
-	}, 4500);
-});
